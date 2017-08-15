@@ -1,0 +1,139 @@
+/* CSS File for rsbFolio */
+
+body
+{
+  margin: 0;
+  padding: 20 0 0 0;
+  font-family: sans-serif;
+  background: beige;
+}
+
+.main span
+{
+  text-align: center;
+}
+
+.main h1
+{
+  font-family: fantasy;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: blue;
+  background: aliceblue;
+  margin-top: 15px;
+}
+
+.main h2
+{
+  font-size: 1.2rem;
+  font-family: cursive;
+  font-weight: 600;
+  background: beige;
+  margin-bottom: 20px;
+
+}
+.container
+{
+  width: 98.5vw;
+  max-height: 400px;
+  display: flex;
+  box-sizing: border-box;
+}
+.container .box
+{
+  width: 16.6vw;
+  max-height: 400px;
+  text-align: center;
+  line-height: 1vh;
+  flex-grow: 1;
+  background-size: cover;
+  background-position: center;
+  transition: 1s;
+}
+.box h1
+{
+  margin: 0;
+  padding: 0;
+  line-height: 400px;
+  font-size: 1.2em;
+  background: rgba(0,0,0,.6);
+  transition: 0.5s;
+}
+.box h1 span
+{
+  background: rgba(255,255,255,0);
+  width: 100%;
+  max-height: 400px;
+  transition: 1s;
+  color: #fff;
+  padding: 25px 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.box:hover h1 span
+{
+  color: #262626;
+  background: rgba(255,255,255,.7);
+  letter-spacing: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,.5);
+}
+
+.box:hover h1
+{
+  background: rgba(0,0,0,0);
+}
+
+.box:hover
+{
+  width: 80vw;
+}
+
+.container .box:nth-child(1)
+{
+  background: url(../images/Screenshot-Colmar2.png);
+  background-size: cover;
+  max-height: 400px;
+  background-repeat: no-repeat;
+  border: 3px solid yellow;
+}
+.container .box:nth-child(2)
+{
+  background: url(../images/Screenshot-excursion2.png);
+  background-size: cover;
+  max-height: 400px;
+  background-repeat: no-repeat;
+  border: 3px solid yellow;
+}
+.container .box:nth-child(3)
+{
+  background: url(../images/Screenshot-SecretAgent2.png);
+  background-size: cover;
+  max-height: 400px;
+  background-repeat: no-repeat;
+  border: 3px solid yellow;
+}
+.container .box:nth-child(4)
+{
+  background: url(../images/Screenshot-TeaCozy2.png);
+  background-size: cover;
+  max-height: 400px;
+  background-repeat: no-repeat;
+  border: 3px solid yellow;
+}
+.container .box:nth-child(5)
+{
+  background: url(../images/Screenshot-ToDo2.png);
+  background-size: cover;
+  max-height: 400px;
+  background-repeat: no-repeat;
+  border: 3px solid yellow;
+}
+.container .box:nth-child(6)
+{
+  background: url(../images/Screenshot-Tortoiseshell2.png);
+  background-size: cover;
+  max-height: 400px;
+  background-repeat: no-repeat;
+  border: 3px solid yellow;
+}
