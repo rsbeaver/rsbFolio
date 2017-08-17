@@ -25,24 +25,35 @@ body
 
 .main h2
 {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-family: cursive;
-  font-weight: 600;
+  font-weight: 500;
   background: beige;
   margin-bottom: 20px;
+  padding-top: 0.5rem;
+}
 
+.welcome
+{
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: cursive;
+  line-height: 1.2;
+  text-align: center;
+  padding: 10 20 20 20;
 }
 .container
 {
-  width: 98.5vw;
-  max-height: 400px;
+  width: 90vw;
+  max-height: 300px;
   display: flex;
-  box-sizing: border-box;
+  margin:auto;
+  box-sizing: content-box;
 }
 .container .box
 {
-  width: 16.6vw;
-  max-height: 400px;
+  width: 15vw;
+  max-height: 300px;
   text-align: center;
   line-height: 1vh;
   flex-grow: 1;
@@ -54,7 +65,7 @@ body
 {
   margin: 0;
   padding: 0;
-  line-height: 400px;
+  line-height: 300px;
   font-size: 1.2em;
   background: rgba(0,0,0,.6);
   transition: 0.5s;
@@ -63,7 +74,7 @@ body
 {
   background: rgba(255,255,255,0);
   width: 100%;
-  max-height: 400px;
+  max-height: 300px;
   transition: 1s;
   color: #fff;
   padding: 25px 20px;
@@ -86,14 +97,19 @@ body
 
 .box:hover
 {
-  width: 80vw;
+  width: 40vw;
+}
+
+.container2 .box:hover
+{
+  width: 40vw;
 }
 
 .container .box:nth-child(1)
 {
   background: url(../images/Screenshot-Colmar2.png);
   background-size: cover;
-  max-height: 400px;
+  max-height: 300px;
   background-repeat: no-repeat;
   border: 3px solid yellow;
 }
@@ -101,7 +117,7 @@ body
 {
   background: url(../images/Screenshot-excursion2.png);
   background-size: cover;
-  max-height: 400px;
+  max-height: 300px;
   background-repeat: no-repeat;
   border: 3px solid yellow;
 }
@@ -109,7 +125,7 @@ body
 {
   background: url(../images/Screenshot-SecretAgent2.png);
   background-size: cover;
-  max-height: 400px;
+  max-height: 300px;
   background-repeat: no-repeat;
   border: 3px solid yellow;
 }
@@ -117,23 +133,70 @@ body
 {
   background: url(../images/Screenshot-TeaCozy2.png);
   background-size: cover;
-  max-height: 400px;
+  max-height: 300px;
   background-repeat: no-repeat;
   border: 3px solid yellow;
 }
-.container .box:nth-child(5)
+
+.info
+{
+  font-family: cursive;
+  font-weight: 600;
+  margin: 20 0;
+  padding-left: 4.0rem;
+}
+
+.container2
+{
+  width: 90vw;
+  max-height: 300px;
+  display: flex;
+  margin: auto;
+  box-sizing: border-box;
+}
+.container2 .box
+{
+  width: 15vw;
+  max-height: 300px;
+  text-align: center;
+  line-height: 1vh;
+  flex-grow: 1;
+  background-size: cover;
+  background-position: center;
+  transition: 1s;
+}
+.container2 .box:nth-child(1)
 {
   background: url(../images/Screenshot-ToDo2.png);
   background-size: cover;
-  max-height: 400px;
+  max-height: 300px;
   background-repeat: no-repeat;
   border: 3px solid yellow;
 }
-.container .box:nth-child(6)
+
+.container2 .box:nth-child(2)
 {
   background: url(../images/Screenshot-Tortoiseshell2.png);
   background-size: cover;
-  max-height: 400px;
+  max-height: 300px;
+  background-repeat: no-repeat;
+  border: 3px solid yellow;
+}
+
+.container2 .box:nth-child(3)
+{
+  background: url(../images/Screenshot-MatchGame.png);
+  background-size: cover;
+  max-height: 300px;
+  background-repeat: no-repeat;
+  border: 3px solid yellow;
+}
+
+.container2 .box:nth-child(4)
+{
+  background: url(../images/Screenshot-MyTimes.png);
+  background-size: cover;
+  max-height: 300px;
   background-repeat: no-repeat;
   border: 3px solid yellow;
 }
